@@ -43,4 +43,6 @@ pipenv run uvicorn --host 0.0.0.0 --port 5000 app.main:app
 
 ### Tests
 
-python -m pytest --cov=app
+Run this command to run tests with coverage:
+
+`python -m pytest --cov=app`
