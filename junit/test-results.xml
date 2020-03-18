@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="UX32VD" name="pytest" skipped="0" tests="1" time="0.488" timestamp="2020-03-18T20:50:03.120464"><testcase classname="tests.router.main_test" file="tests/router/main_test.py" line="8" name="test_check" time="0.007"></testcase></testsuite></testsuites>
