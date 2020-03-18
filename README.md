@@ -46,3 +46,13 @@ pipenv run uvicorn --host 0.0.0.0 --port 5000 app.main:app
 Run this command to run tests with coverage:
 
 `python -m pytest --cov=app`
+
+### Deploying
+
+By running `cz bump` it automatically detecs the version to bump - major, minor or patch. It follows [SemVer](https://semver.org/) standard. Then when pushin the code to GitHub, it needs to be done like this:
+
+```
+git push origin master --tags
+```
+
+It will then push the code and the Azure Pipeline will create the GitHub release if the pipeline passes.
