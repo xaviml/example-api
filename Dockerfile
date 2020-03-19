@@ -10,6 +10,7 @@ WORKDIR /usr/src/example-api
 COPY . .
 
 RUN pipenv install
+RUN pipenv run spacy download en_core_web_sm
 
 EXPOSE 5000
 

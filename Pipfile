@@ -9,6 +9,7 @@ python_version = "3.8"
 [packages]
 fastapi = "*"
 uvicorn = "*"
+spacy = "*"
 
 [dev-packages]
 pytest = "*"
